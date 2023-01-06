@@ -81,7 +81,7 @@ def VideoDownload(url):
     resp = json.loads(body.decode("utf-8"))  
     videoUrl = resp['data'][-1]['file']
     videoUrl = videoUrl.replace('\\\\','\\')  
-    driver.get('http://127.0.0.1')
+    driver.get('http://192.168.0.114')
     savePath = Path("C:\\Downloads")
     savePath.mkdir(exist_ok=True,parents=True)
     print(videoUrl)
