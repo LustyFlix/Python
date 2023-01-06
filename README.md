@@ -1,4 +1,12 @@
 - Install dependencies for scripts:
 ```
-pip install -r requirements.txt
+pip install selenium-wire
 ```
+```
+pip install internetdownloadmanager
+```
+```
+pip install scrapy
+```
+
+
